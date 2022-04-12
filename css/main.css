@@ -1,0 +1,148 @@
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1240px;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFF;
+}
+
+.form{
+    width: 700px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.form__input{
+    width: 600px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.076);
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+}
+
+.form__btn{
+    padding: 8px;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+    font-weight: 500;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.list__Item{
+    width: 350px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.list__img{
+    width: 100%;
+}
+
+.list__title{
+    font-size: 26px;
+    font-weight: 500;
+    color: red;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.list__year{
+    font-size: 20px;
+    color: blue;
+    font-weight: 500;
+    text-align: center;
+}
+
+.list__type{
+    color: green;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pagination{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pagenation-template{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:375px){
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    .form{
+        width: 100%;
+        display: flex;
+    }
+
+    .form__input{
+        width: 80%;
+    }
+
+    .form__btn{
+        width: 20%;
+    }
+
+    .list{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list__title{
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav{
+        width: 100%;
+    }
+
+    .pagination{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
